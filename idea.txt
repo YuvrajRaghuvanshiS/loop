@@ -1,0 +1,15 @@
+We poll every store roughly every hour and have data about whether the store was active or not in a CSV 
+A) store_id, timestamp_utc, status
+
+We have the business hours of all the stores
+B) store_id, dayOfWeek(0=Monday, 6=Sunday), start_time_local, end_time_local
+
+Timezone for the stores
+C) store_id, timezone_str
+
+
+Steps:
+For each store in A:
+    Find its timezone.
+    Covert local open/close time into UTC.
+    Check the status if it was open/close when it was supposed to be open.
