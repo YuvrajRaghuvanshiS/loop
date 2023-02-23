@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8000/trigger-report
+
+###
+
+POST http://127.0.0.1:8000/get-report/
+Content-Type: application/json
+
+{
+    "report_id":"222002b6-5465-45e1-b58b-38587a5155ab"
+}
