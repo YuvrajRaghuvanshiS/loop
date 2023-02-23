@@ -1,6 +1,16 @@
 {
     "cSpell.words": [
+        "bson",
+        "dateutil",
+        "downsample",
+        "downsampled",
+        "Downsamples",
+        "fastapi",
+        "pydantic",
         "pymongo",
-        "pytz"
-    ]
+        "pytz",
+        "snakeviz",
+        "upserted"
+    ],
+    "python.analysis.typeCheckingMode": "off"
 }
